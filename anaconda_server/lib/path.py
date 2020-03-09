@@ -7,6 +7,7 @@ import platform
 
 logpath = {
     'linux': os.path.join('~', '.local', 'share', 'anaconda', 'logs'),
+    'freebsd': os.path.join('~', '.local', 'share', 'anaconda', 'logs'),
     'darwin': os.path.join('~', 'Library', 'Logs', 'anaconda'),
     'windows': os.path.join(os.getenv('APPDATA') or '~', 'Anaconda', 'Logs')
 }
